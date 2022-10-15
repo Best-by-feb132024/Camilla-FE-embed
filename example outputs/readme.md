@@ -2,7 +2,7 @@ Some example outputs using the embed.
 
 # Novel AI
 
-![]()
+![1](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/00326-3359986130-Camilla-FE.bin.png)
 
 using:
 * prompt: Camilla-FE.bin
