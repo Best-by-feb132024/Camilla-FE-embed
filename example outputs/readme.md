@@ -18,4 +18,4 @@ uaing:
 * Steps: 86, Sampler: Heun, CFG scale: 10, Seed: 1899767323, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9
 
 
-# Waifu diffusion 1.3
+
