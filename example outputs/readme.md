@@ -19,3 +19,6 @@ uaing:
 
 
 
+# More exampels with no prompts
+
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/camilla%20in%20a%20medevil%20castle%20(i%20forget%20prompt).png)
