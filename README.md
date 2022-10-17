@@ -46,6 +46,42 @@ Without:
 * Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, 1boy, bald, fat, uneven sized eyes,
 * Steps: 44, Sampler: Euler a, CFG scale: 10, Seed: 78253082, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9
 
+# Prompt tips
+
+The following prompt additions I've noticed help, they are basically all hallmark traits of Camilla you are emphasizing to the AI
+
+* hair over one eye / (hair over one eye)
+  * BY FAR THE MOST HANDY / IMPORTANT ONE. In general stable diffusion struggles with consistent eyes, and given Camilla always has hair covering 1 of her eyes I've found not including this vs including this has night and day differences.
+* purple hair
+* long hair
+* purple eyes
+* curvy 
+  * not as required to make output look like camilla entirely, but she is curvy in basically all art and this still helps
+* [looking at viewer]
+  * all the input data has her looking at you, or looking at a 3/4 angle to the side. So it is handy
+
+
+## Hair covering 1 eye vs both eyes shown comparisson 
+
+Here is when the output doesn't cover 1 eye with purple hair:
+
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/When%20the%20hair%20over%20eye%20tag%20misses.png)
+
+and here is when the prompt for hair over one eye works:
+
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/when%20the%20hair%20over%20eye%20hits.png)
+
+
+Note: both used the same prompt (save for the hair not covering eyes one not emphasizing `hair over one eye` with paranthesis `(hair over one eye)`
+
+<Camilla-fe>, abs, curvy, (hair over one eye), arms behind back,
+best quality, [purple hair], [long hair], [photorealistic], [[feminine]], (in heat:0.12), [solo], [cowboy shot], [[beach]], (detailed face:1) (detailed eyes:1), [[absurd res]], [nsfw], [[[[intricate details]]]], highly detailed, smooth, sharp focus
+Negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, obese, fat, pregnant, bald, fat, prosthesis, prosthetic, artificial limb, 1boy, [male focus], anorexic, mutated hands, (fused fingers), (too many fingers), (((long neck))), ((extra heades)), different pupils
+Steps: 84, Sampler: Euler a, CFG scale: 8, Seed: 2903797192, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9, Variation seed: 910849907, Variation seed strength: 0.32
+
+Used embeddings: Camilla-FE [e687]
+
+
 # Why?
 
 I am incredibly horny for Camilla.
