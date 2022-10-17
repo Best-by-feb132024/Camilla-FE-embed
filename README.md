@@ -16,9 +16,9 @@ To install simply download the `Camilla-FE.bin` file and place it in your `stabl
 * front facing view (1 or 2 were from the side)
 * contained camilla's face, purple hair, and breasts
 
-This was trained with the google collab for textual inversion and **not** the webui version. This means I couldn't add tags. If you'd like to retrain the model with appropriate tags on the inputs you have my blessing (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
+This was trained with the google collab for textual inversion and **not** the webui version. This means I couldn't add tags. If you'd like to retrain the model with appropriate tags on the inputs I can share the original training images (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
 
-## Comparisson
+## Comparissons
 
 With `Camilla-FE.bin`:
 
