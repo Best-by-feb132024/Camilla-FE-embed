@@ -10,13 +10,14 @@ To install simply download the `Camilla-FE.bin` file and place it in your `stabl
 
 # Model details
 
-15-16 512x512 pixel images were used to train the textual inversion embed.
+24 512x512 pixel images were used to train the textual inversion embed.
 
 * 2D anime/cartoon/digital art style
 * front facing view (1 or 2 were from the side)
 * contained camilla's face, purple hair, and breasts
+* file names had basic tags incase the google collab can understand those.
 
-This was trained with the google collab for textual inversion and **not** the webui version. This means I couldn't add tags. If you'd like to retrain the model with appropriate tags on the inputs I can share the original training images (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
+This was trained with the google collab for textual inversion and **not** the webui version. This means there's a chance it didn't take any tag inputs from file names. If you'd like to retrain the model with appropriate tags on the inputs I can share the original training images (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
 
 ## Comparissons
 
