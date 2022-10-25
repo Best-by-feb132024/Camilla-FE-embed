@@ -8,7 +8,7 @@ To install simply download the `Camilla-FE.bin` file and place it in your `stabl
 
 
 
-# Model details
+# Model details (V2)
 
 24 512x512 pixel images were used to train the textual inversion embed.
 
@@ -23,29 +23,40 @@ This was trained with the google collab for textual inversion and **not** the we
 
 With `Camilla-FE.bin`:
 
-![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/with%20camilla.png)
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/beach%20ghibli%20v2%20with%20camilla.png)
 
-* prompt: A curvy Camilla-FE.bin with purple hair wearing a bikini. thick thighs, hourglass figure, (abs). solo.
-* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, 1boy, bald, fat, uneven sized eyes,
-* Steps: 44, Sampler: Euler a, CFG scale: 10, Seed: 78253082, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9
+* prompt: a Camilla-FE.bin wearing a bikini at the beach, by Studio Ghibli. (large breasts), ((hair over one eye)), long hair, curvy, thick thighs, upper body, wide hips, (purple hair), best quality, detailed face, character focus, [masterpiece], absurd res, detailed eyes, sexy face, [intricate details], [[photorealistic]], detailed facial features, dynamic lighting, sharp focus
+* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, bald, fat, prosthesis, prosthetic, artificial limb, crossed eyes, lowres, worst quality, low quality, jpeg artifacts, loli, 1boy, shota, asymmetrical breasts, ((tiny breasts)), ((small breasts))
+* Steps: 64, Sampler: Euler a, CFG scale: 10, Seed: 1688581248, Face restoration: GFPGAN, Size: 512x512, Model hash: 925997e9, Model: final-pruned
 
 
-Using `Camilla-FE.bin` at the end:
+Using Camilla instead of the embed:
 
-![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/with%20camilla%20as%20add%20on.png)
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/beach%20ghibli%20no%20embed.png)
 
-* Prompt: A curvy woman with purple hair wearing a bikini. thick thighs, hourglass figure, (abs). ((Camilla-FE.bin)), solo.
-* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, 1boy, bald, fat, uneven sized eyes,
-* Steps: 44, Sampler: Euler a, CFG scale: 10, Seed: 78253082, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9
+* Prompt: Camilla wearing a bikini at the beach, by Studio Ghibli. (large breasts), ((hair over one eye)), long hair, curvy, thick thighs, upper body, wide hips, (purple hair), best quality, detailed face, character focus, [masterpiece], absurd res, detailed eyes, sexy face, [intricate details], [[photorealistic]], detailed facial features, dynamic lighting, sharp focus
+* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, bald, fat, prosthesis, prosthetic, artificial limb, crossed eyes, lowres, worst quality, low quality, jpeg artifacts, loli, 1boy, shota, asymmetrical breasts, ((tiny breasts)), ((small breasts))
+* Steps: 64, Sampler: Euler a, CFG scale: 10, Seed: 1688581248, Face restoration: GFPGAN, Size: 512x512, Model hash: 925997e9, Model: final-pruned
 
 
 Without:
 
-![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/without%20camilla.png)
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/beach%20ghibli%20woman%20prompt.png)
 
-* Prompt: A curvy woman with purple hair wearing a bikini. thick thighs, hourglass figure, (abs). solo.
-* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, 1boy, bald, fat, uneven sized eyes,
-* Steps: 44, Sampler: Euler a, CFG scale: 10, Seed: 78253082, Face restoration: CodeFormer, Size: 512x512, Model hash: 925997e9
+* Prompt: a woman wearing a bikini at the beach, by Studio Ghibli. (large breasts), ((hair over one eye)), long hair, curvy, thick thighs, upper body, wide hips, (purple hair), best quality, detailed face, character focus, [masterpiece], absurd res, detailed eyes, sexy face, [intricate details], [[photorealistic]], detailed facial features, dynamic lighting, sharp focus
+* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, bald, fat, prosthesis, prosthetic, artificial limb, crossed eyes, lowres, worst quality, low quality, jpeg artifacts, loli, 1boy, shota, asymmetrical breasts, ((tiny breasts)), ((small breasts))
+* Steps: 64, Sampler: Euler a, CFG scale: 10, Seed: 1688581248, Face restoration: GFPGAN, Size: 512x512, Model hash: 925997e9, Model: final-pruned
+
+
+## Version comparissons 
+
+![](https://github.com/Best-by-feb132024/Camilla-FE-embed/blob/main/example%20outputs/v1%20vs%20v2.png)
+
+* Prompt: a Camilla-FE.bin wearing a bikini at the beach, by Studio Ghibli. (large breasts), ((hair over one eye)), long hair, curvy, thick thighs, upper body, wide hips, (purple hair), best quality, detailed face, character focus, [masterpiece], absurd res, detailed eyes, sexy face, [intricate details], [[photorealistic]], detailed facial features, dynamic lighting, sharp focus
+* Negative prompt: ((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than 2 nipples))), out of frame, ugly, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), obese, overweight, pregnant, plump, male focus, genderswap, furry, bald, fat, prosthesis, prosthetic, artificial limb, crossed eyes, lowres, worst quality, low quality, jpeg artifacts, loli, 1boy, shota, asymmetrical breasts, ((tiny breasts)), ((small breasts))
+* Steps: 64, Sampler: Euler a, CFG scale: 10, Seed: 1236903230, Face restoration: GFPGAN, Size: 512x512, Model hash: 925997e9, Model: final-pruned
+
+
 
 # Prompt tips
 
@@ -63,6 +74,8 @@ The following prompt additions I've noticed help, they are basically all hallmar
 
 
 ## Hair covering 1 eye vs both eyes shown comparisson 
+
+*Results shown were done using the V1 model and not V2*
 
 Here is when the output doesn't cover 1 eye with purple hair:
 
