@@ -4,7 +4,7 @@ NSFW textual inversion embed for stable diffusion based on R34 images of Camilla
 ![](https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Camilla_Bewitching_Beauty_Face.webp/revision/latest?cb=20190920200248)
 
 # Installing and using with AUTOMATIC1111's SD webui
-To install simply download the `Camilla-FE.bin` file and place it in your `stable-diffusion-webui-master\embeddings` folder. Then in order to use the embedding enter in the filename `Camilla-FE.bin` or the token `<Camilla-FE>` in the prompt field. (You can download SD webui [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui) )
+To install simply download the `Camilla-FE.bin` file and place it in your `stable-diffusion-webui-master\embeddings` folder. Then in order to use the embedding enter in the filename `Camilla-FE.bin` or the token `<Camilla-FE-V2>` in the prompt field. (You can download SD webui [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui) )
 
 
 
