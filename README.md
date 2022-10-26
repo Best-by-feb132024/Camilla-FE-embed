@@ -1,6 +1,8 @@
 # Camilla-FE-embed
 NSFW textual inversion embed for stable diffusion based on R34 images of Camilla from fire emblem. To be used with stable diffusion (prefferably waifu diffusion 1.3 or Novel AI)
 
+**You are free to use this without credit, but I ask you do not monetize any images you creates using this**.
+
 ![](https://static.wikia.nocookie.net/feheroes_gamepedia_en/images/e/ec/Camilla_Bewitching_Beauty_Face.webp/revision/latest?cb=20190920200248)
 
 # Installing and using with AUTOMATIC1111's SD webui
@@ -17,7 +19,7 @@ To install simply download the `Camilla-FE.bin` file and place it in your `stabl
 * contained camilla's face, purple hair, and breasts
 * file names had basic tags incase the google collab can understand those.
 
-This was trained with the google collab for textual inversion and **not** the webui version. This means there's a chance it didn't take any tag inputs from file names. If you'd like to retrain the model with appropriate tags on the inputs I can share the original training images (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
+This was trained with the google collab for textual inversion and **not** the webui version. This means there's a chance it didn't take any tag inputs from file names. If you'd like to retrain the model with appropriate tags on the inputs I can share the original training images that have tags in their file names (but please share the final result). Thankfully it does produce noticable changes in outputs, with outputs having Camilla's signature long purple hair and big-huge breasts.
 
 ## Comparissons
 
