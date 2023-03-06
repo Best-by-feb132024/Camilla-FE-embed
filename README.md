@@ -1,3 +1,9 @@
+**EDIT** March 2023: I now have a Camilla sd LORA https://civitai.com/models/11890/camilla-fe
+
+I reccomend using that instead.
+
+
+
 # Camilla-FE-embed
 NSFW textual inversion embed for stable diffusion based on R34 images of Camilla from fire emblem. To be used with stable diffusion (prefferably waifu diffusion 1.3 or Novel AI)
 
